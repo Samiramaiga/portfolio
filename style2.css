@@ -1,0 +1,22 @@
+.bloc1 {
+	background-color: lightblue;
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+.bloc2 {
+	background-color: pink;
+	height: 50px;
+	width: 100px;
+	float: left;
+	margin-left: 20px;
+}
+
+.bloc3 {
+	background-color: lightgreen;
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-left: 20px;
+}
