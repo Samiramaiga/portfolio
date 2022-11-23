@@ -1,0 +1,21 @@
+body 
+{
+    background-color: palevioletred;
+}
+
+button
+{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    border: 2px solid white;
+    color: white;
+    font-size: 3em;
+
+}
+
+button:hover
+{
+    background-color: wheat;
+    color: black;
+}
