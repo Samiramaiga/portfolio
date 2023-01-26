@@ -1,0 +1,128 @@
+body{
+		background-color: #f1dabe;
+		font-family: "Gill Sans", sans-serif;
+		text-shadow: 1px 1px 2px #753c1f;
+		
+		
+	}
+	
+.bloc1, .bloc4
+{
+	border: 3px solid #1b1a1acc;
+	border-radius: 8px;
+	height: 5px;
+	width: 100%;
+	margin-left: 4px;
+	font-size: 38px;
+	padding-bottom: 10%;
+	text-align: center;
+	color: white;
+	box-shadow: 12px 12px 2px 1px rgb(70 5 5 / 28%);
+	
+	
+
+}
+.bloc2
+{
+border: 3px solid #ffffff;
+background-color: #6e4232e0;
+text-shadow: rgb(255, 255, 255) 1px 0 10px;
+color: white;
+	border-radius: 8px;
+	height: 33%;
+	width: 20%;
+	font-size: 30px;
+	padding-bottom: 10%;
+	float: left;
+	margin-bottom: 10%;
+    position: absolute;
+    text-align: center;
+	box-shadow: 12px 12px 2px 1px rgb(70 5 5 / 28%);
+
+}
+
+.bloc3
+{
+border: 3px solid #000000;
+	border-radius: 8px;
+	height: 25%;
+	width: 78%;
+	margin-left: 22%;
+	font-size: 38px;
+	padding-bottom: 10%;
+	box-shadow: 12px 12px 2px 1px rgb(78 27 15 / 71%);
+	
+	
+	
+	
+
+}
+
+.bloc4 {
+	border: 3px solid #ffffffcc;
+	font-size: 20px;
+}
+
+
+
+
+div#menu{ width: 100px;}
+
+div#menu ul {
+	padding:0;
+	width: 170px;
+	border:1px solid;
+	margin-left: 85px;
+}
+div#menu ul li {
+	position:relative;
+	list-style:none;
+	border-bottom: 3px solid;
+}
+div#menu ul ul {
+	position:absolute ;
+	top:0;
+	left: 66px;
+	display: none;
+}
+div#menu li a{
+	text-decoration:none ;
+	padding:4px 0 4px 8px;
+	display:block;
+	 border-left:5px solid rgb(187, 77, 77) ;
+	 width: 84px;
+	 color: white;
+	 
+
+}
+div#menu ul.niveau1 li.sousmenu:hover ul.niveau2,
+div#menu ul.niveau2 li.sousmenu:hover ul.niveau3 {display:block;
+}
+
+
+div#menu a {color:#000000;
+}
+div#menu li:hover {
+	background:rgba(243, 165, 152, 0.767);
+}
+
+div#menu li a:hover{ 
+	border-left-color:rgb(255, 255, 255); 
+}
+div#menu ul ul li a:hover{
+	border-left-color:#ffffff;
+}
+div#menu ul ul ul li  a:hover{
+	border-left-color:#ffffff;}
+
+
+.img{
+	float: center;
+	margin-left: 150px;
+	border: solid rgba(255, 255, 255, 0.861) 2px;
+}
+
+iframe{
+	border: #000000 solid 3px;
+	box-shadow: 10px 5px 5px rgb(50, 38, 38);
+}
